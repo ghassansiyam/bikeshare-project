@@ -193,11 +193,11 @@ def display_raw_data(df):
     print(df.head())
     next = 0
     while True:
-        view_raw_data = input('\nWould you like to view next five row of raw data? Enter yes or no.\n')
+        view_raw_data = input('\nWould you like to view next ten row of raw data? Enter yes or no.\n')
         if view_raw_data.lower() != 'yes':
             return
-        next = next + 5
-        print(df.iloc[next:next+5])
+        next = next + 10
+        print(df.iloc[next:next+10])
 
 
 def main():
@@ -210,7 +210,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df, city)
         while True:
-            view_raw_data = input('\nWould you like to view first five row of raw data? Enter yes or no.\n')
+            view_raw_data = input('\nWould you like to view first ten row of raw data? Enter yes or no.\n')
             if view_raw_data.lower() != 'yes':
                 break
             display_raw_data(df)
