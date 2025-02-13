@@ -33,7 +33,7 @@ Most popular combination of start and end stations
 Total trip duration
 Average trip duration
 Types of users by number
-Types of users by gender (if available)
+Types of users by gender (if available)       
 The oldest user (if available)
 The youngest user (if available)
 The most common birth year amongst users (if available)
