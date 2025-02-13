@@ -56,6 +56,11 @@ def get_filters():
     print('-'*40)
     return city, month, day
 def load_data(city, month, day):
+
+
+
+
+
     """
     Loads data for the specified city and filters by month and day if applicable.
 
@@ -80,7 +85,7 @@ def load_data(city, month, day):
     # filter by month if applicable
     if month != 'all':
         # use the index of the months list to get the corresponding int
-        months = ['january', 'february', 'march', 'april', 'may', 'june']
+        months = ['january', 'february', 'march', 'april', 'may', 'june','july','august']
         month = months.index(month) + 1
 
         # filter by month to create the new dataframe
