@@ -39,6 +39,11 @@ The youngest user (if available)
 The most common birth year amongst users (if available)
 Finally, the user is prompted with the choice of restarting the program or not.
 
+### Requirments
+
+Language: Python 3.6 or above
+Libraries: pandas, numpy, time
+
 ### Credits
 
 pandas docs - pandas documentation was immensely helpful in understanding the implemention of pandas methods used in this project.
