@@ -2,6 +2,10 @@ import time
 import pandas as pd
 import numpy as np
 
+"""
+please be noted to check the files location before running out the program
+"""
+
 CITY_DATA = {'chicago': '/content/chicago.csv',
               'new york city': '/content/new_york_city.csv',
               'washington': '/content/washington.csv'}
