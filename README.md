@@ -5,11 +5,25 @@
 13-FEB-2025
 
 ### Project Title
+<<<<<<< HEAD
 Basic Data Exploration with pandas on Bikeshare Data
+||||||| parent of 54cb6d1 (First Documentation)
+Replace the Project Title
+=======
+Explore US Bikeshare Data
+>>>>>>> 54cb6d1 (First Documentation)
 
 ### Description
+<<<<<<< HEAD
 This project focuses on pandas library usage and simple statistics methods to perform descriptive analysis on the bikeshare data from three major U.S. cities - Chicago, Washington, and New York City - to display information such as most popular days or most common stations.
+||||||| parent of 54cb6d1 (First Documentation)
+Describe what your project is about and what it does
+=======
+In this project,we use data provided by Udacity related to a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. we compare the system usage between three large cities: Chicago, New York City, and Washington, DC. We looking for a set of measurmnets such as (Popular times of travel,Popular stations and trip,
+total travel time and ser info statics).
+>>>>>>> 54cb6d1 (First Documentation)
 
+<<<<<<< HEAD
 ### Project Data
 
 chicago.csv - Stored in the data folder, the chicago.csv file is the dataset containing all bikeshare information for the city of Chicago provided by Udacity.
@@ -43,6 +57,15 @@ Finally, the user is prompted with the choice of restarting the program or not.
 
 Language: Python 3.6 or above
 Libraries: pandas, numpy, time
+||||||| parent of 54cb6d1 (First Documentation)
+### Files used
+Include the files used
+=======
+### Files used
+washington.csv
+chicago.csv
+new_york_city.csf
+>>>>>>> 54cb6d1 (First Documentation)
 
 ### Credits
 
